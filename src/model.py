@@ -27,11 +27,11 @@ class Model:
         self.tokenized = {}
         self.phrases_embeddings = {}
 
-    @staticmethod
     def fetch_model_from_drive(self, url, filename, model_path) -> None:
-        os.sys(f"wget {url} -O {filename}")
-        os.sys(f"gzip -d {filename}")
-        os.sys(f"mv {filename.removesuffix('.gz')} {model_path}/{filename.removesuffix('.gz')}")
+        os.system(f"wget {url} -O {filename}")
+        os.system(f"gzip -d {filename}")
+        os.system(f"mv {filename.removesuffix('.gz')} {model_path}"
+                f"/{filename.removesuffix('.gz')}")
 
     def remove_stop_words(self, sentence):
         word_tokens = word_tokenize(sentence)

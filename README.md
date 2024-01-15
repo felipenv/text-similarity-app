@@ -15,7 +15,7 @@ docker run -p 8895:8888 --name=test --cpus=1 --memory=16g --shm-size=8g text_app
 On app startup, it will check if word2vec is available, if not it will download it 
 from google drive.
 
-to avoid the download time, you can mount a file `GoogleNews-vectors-negative300. bin` to path `/home/app/model`
+to avoid the download time, you can mount a file `GoogleNews-vectors-negative300.bin` to path `/home/app/model`
 
 ## Check on browser 
 `localhost:8895/docs`

@@ -2,3 +2,6 @@ download_model:
   model_path: '/home/app/model'
   filename: 'GoogleNews-vectors-negative300.bin.gz'
   url: 'https://drive.usercontent.google.com/download\?id\=0B7XkCwpI5KDYNlNUTTlSS21pQmM\&export\=download\&authuser\=0\&confirm\=t\&uuid\=14d8434d-82a3-4837-b611-7b73d90b6ff3\&at\=APZUnTWEivNsjtvI_7beMzYGYqNi%3A1705237998805'
+
+data:
+  path: '/home/app/data/phrases.csv'
